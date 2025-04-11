@@ -1,0 +1,95 @@
+
+.lost-form-container {
+    min-height: 100vh;
+    background: linear-gradient(to top right, #cfe8fc, #b4d9f8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+  }
+  
+  .lost-form {
+    background: #ffffffd9;
+    padding: 2rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .lost-form h2 {
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #2563eb;
+    margin-bottom: 1.5rem;
+  }
+  
+  .lost-form label {
+    font-weight: 600;
+    color: #374151;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .lost-form input,
+  .lost-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.75rem;
+    border: 1px solid #d1d5db;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+  }
+  
+  .lost-form input:focus,
+  .lost-form textarea:focus {
+    outline: none;
+    background-color: #fff;
+    border-color: #60a5fa;
+    box-shadow: 0 0 0 4px rgba(96, 165, 250, 0.2);
+  }
+  
+  grid-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem; 
+  }
+  
+  
+  .lost-form button {
+    margin-top: 1.5rem;
+    width: 100%;
+    padding: 0.85rem;
+    font-weight: bold;
+    color: white;
+    background-color: #2563eb;
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+  }
+  
+  .lost-form button:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-1px);
+  }
+  
+  .lost-form button:active {
+    transform: scale(0.98);
+  }
+  
+  @media (max-width: 640px) {
+    .lost-form {
+      padding: 1.5rem;
+    }
+  
+    .lost-form h2 {
+      font-size: 1.5rem;
+    }
+  
+    .grid-fields {
+      grid-template-columns: 1fr;
+    }
+  }
+  

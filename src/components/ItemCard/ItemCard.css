@@ -1,0 +1,82 @@
+.item-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+}
+
+
+.card-header {
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.item-type {
+  display: inline-block;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+
+.item-type.lost {
+  background-color: #8B0000; 
+  color: #fff;
+}
+
+
+.item-type.found {
+  background-color: #006400; 
+  color: #fff;
+}
+
+
+.card-body {
+  padding: 0.5rem 0;
+}
+
+.item-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+
+.item-description {
+  margin-bottom: 0.3rem;
+}
+
+.item-date,
+.item-location,
+.item-contact {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 0.2rem;
+}
+
+
+.card-footer {
+  text-align: center;
+}
+
+.delete-btn {
+  background-color: #ff6961;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+  margin-top: 0.5rem;
+}
+
+.delete-btn:hover {
+  background-color: #e55b56;
+}
+
+
